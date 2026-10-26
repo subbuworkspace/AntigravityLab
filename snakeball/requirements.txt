@@ -1,0 +1,5 @@
+# Snake & Ball Arcade Game relies exclusively on Python standard library modules:
+# - tkinter (GUI)
+# - winsound (Windows audio)
+# - math, random, json, os, sys, threading
+# No external pip dependencies required.

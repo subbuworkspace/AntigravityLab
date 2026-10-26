@@ -1,0 +1,38 @@
+# Environment variables & secrets (CRITICAL: NEVER COMMIT KEYS)
+.env
+*.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyd
+
+# Virtual Environments
+venv/
+.venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Game state / local user saves
+highscore.json
+
+# Local Generated media outputs (keep repo lightweight)
+**/outputs/*.png
+**/outputs/*.json
+!**/outputs/.gitkeep
+
+# OS generated files
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Editor files
+.vscode/
+.idea/
+*.swp
